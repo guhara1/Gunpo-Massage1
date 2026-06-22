@@ -212,29 +212,29 @@ def render_page(page: dict) -> str:
       <ul>
         <li><a href="{HOME}">군포시 메인</a></li>
         <li><a href="{HOME}#areas">대표동 안내</a></li>
-        <li><a href="/gyeonggi/gunpo/station/">역세권 안내</a></li>
-        <li><a href="/gyeonggi/gunpo/area/">생활권 안내</a></li>
-        <li><a href="/gyeonggi/gunpo/sanbon-dong/">산본동</a></li>
+        <li><a href="/station/">역세권 안내</a></li>
+        <li><a href="/area/">생활권 안내</a></li>
+        <li><a href="/sanbon-dong/">산본동</a></li>
       </ul>
     </nav>
     <nav class="footer-col" aria-label="이용 안내">
       <p class="footer-title">이용 안내</p>
       <ul>
-        <li><a href="/gyeonggi/gunpo/reservation/">예약 안내</a></li>
-        <li><a href="/gyeonggi/gunpo/checklist/">이용 전 확인사항</a></li>
-        <li><a href="/gyeonggi/gunpo/guide/">홈타이 이용 가이드</a></li>
-        <li><a href="/gyeonggi/gunpo/support/">고객센터</a></li>
-        <li><a href="/gyeonggi/gunpo/support/#faq">자주 묻는 질문</a></li>
+        <li><a href="/reservation/">예약 안내</a></li>
+        <li><a href="/checklist/">이용 전 확인사항</a></li>
+        <li><a href="/guide/">홈타이 이용 가이드</a></li>
+        <li><a href="/support/">고객센터</a></li>
+        <li><a href="/support/#faq">자주 묻는 질문</a></li>
       </ul>
     </nav>
     <nav class="footer-col" aria-label="정책 및 기준">
       <p class="footer-title">정책</p>
       <ul>
-        <li><a href="/gyeonggi/gunpo/about/">사이트 소개</a></li>
-        <li><a href="/gyeonggi/gunpo/privacy/">개인정보 처리방침</a></li>
-        <li><a href="/gyeonggi/gunpo/terms/">이용약관</a></li>
-        <li><a href="/gyeonggi/gunpo/checklist/#safety">고객 안전 안내</a></li>
-        <li><a href="/gyeonggi/gunpo/checklist/#privacy">개인정보 처리 기준</a></li>
+        <li><a href="/about/">사이트 소개</a></li>
+        <li><a href="/privacy/">개인정보 처리방침</a></li>
+        <li><a href="/terms/">이용약관</a></li>
+        <li><a href="/checklist/#safety">고객 안전 안내</a></li>
+        <li><a href="/checklist/#privacy">개인정보 처리 기준</a></li>
       </ul>
     </nav>
   </div>
@@ -294,20 +294,6 @@ def build() -> None:
 
     # .nojekyll (GitHub Pages)
     open(os.path.join(ROOT, ".nojekyll"), "w").close()
-
-    # 루트(/) → 군포 메인(/gyeonggi/gunpo/) 리다이렉트
-    with open(os.path.join(ROOT, "index.html"), "w", encoding="utf-8") as f:
-        f.write(
-            "<!DOCTYPE html>\n<html lang=\"ko\">\n<head>\n"
-            "<meta charset=\"utf-8\">\n"
-            f'<meta http-equiv="refresh" content="0; url={HOME}">\n'
-            f'<link rel="canonical" href="{BASE_URL.rstrip("/")}{HOME}">\n'
-            "<meta name=\"robots\" content=\"noindex,follow\">\n"
-            f"<title>{BRAND}</title>\n</head>\n<body>\n"
-            f'<p><a href="{HOME}">{BRAND} 군포시 안내로 이동</a></p>\n'
-            f'<script>location.replace("{HOME}");</script>\n'
-            "</body>\n</html>\n"
-        )
 
     width = max(len(p) for p, _, _ in report)
     print(f"{'PATH'.ljust(width)}  CHARS  ROBOTS")

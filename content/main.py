@@ -85,7 +85,7 @@ _HERO = f"""<section class="hero">
     <p class="hero-lead">샵까지 갈 필요 없이, 계신 곳에서 받는 프리미엄 방문 관리.<br>산본·금정·군포역·당정·대야미 생활권을 확인하고 전화 한 통으로 예약하세요.</p>
     <div class="hero-actions">
       <a class="hero-btn primary" href="tel:{PHONE}">📞 {PHONE_DISPLAY}</a>
-      <a class="hero-btn" href="/gyeonggi/gunpo/reservation/">예약 안내 보기</a>
+      <a class="hero-btn" href="/reservation/">예약 안내 보기</a>
     </div>
     <ul class="hero-stats">
       <li><strong>7개</strong><span>대표 동</span></li>
@@ -112,35 +112,35 @@ _BODY = f"""
 <h2>대표동별 방문 가능 지역 안내</h2>
 <p>군포시 대표동은 산본동, 금정동, 군포동, 당정동, 부곡동, 대야미동, 송부동 일곱 곳입니다. 산본1동·산본2동은 산본동으로, 군포1동·군포2동은 군포동으로 통합해 안내하며, 오금동·수리동·궁내동·광정동은 산본신도시 생활권에서 보조 설명합니다. 아래에서 거주하시거나 머무시는 동을 선택해 주세요.</p>
 <ul class="card-grid">
-<li><a href="/gyeonggi/gunpo/sanbon-dong/">산본동</a></li>
-<li><a href="/gyeonggi/gunpo/geumjeong-dong/">금정동</a></li>
-<li><a href="/gyeonggi/gunpo/gunpo-dong/">군포동</a></li>
-<li><a href="/gyeonggi/gunpo/dangjeong-dong/">당정동</a></li>
-<li><a href="/gyeonggi/gunpo/bugok-dong/">부곡동</a></li>
-<li><a href="/gyeonggi/gunpo/daeyami-dong/">대야미동</a></li>
-<li><a href="/gyeonggi/gunpo/songbu-dong/">송부동</a></li>
+<li><a href="/sanbon-dong/">산본동</a></li>
+<li><a href="/geumjeong-dong/">금정동</a></li>
+<li><a href="/gunpo-dong/">군포동</a></li>
+<li><a href="/dangjeong-dong/">당정동</a></li>
+<li><a href="/bugok-dong/">부곡동</a></li>
+<li><a href="/daeyami-dong/">대야미동</a></li>
+<li><a href="/songbu-dong/">송부동</a></li>
 </ul>
-<p>산본동은 군포시에서 출장마사지와 홈타이 검색 수요가 가장 넓은 대표 생활권으로, <a href="/gyeonggi/gunpo/sanbon-dong/">산본동 방문 관리 안내</a>에서 산본역·산본중심상가·산본신도시·수리산역 인접권을 함께 확인할 수 있습니다. 금정역 환승 생활권은 <a href="/gyeonggi/gunpo/geumjeong-dong/">금정동 안내</a>, 당동 구도심은 <a href="/gyeonggi/gunpo/gunpo-dong/">군포동 안내</a>, 산업단지·대학 생활권은 <a href="/gyeonggi/gunpo/dangjeong-dong/">당정동 안내</a>를 참고해 주세요.</p>
+<p>산본동은 군포시에서 출장마사지와 홈타이 검색 수요가 가장 넓은 대표 생활권으로, <a href="/sanbon-dong/">산본동 방문 관리 안내</a>에서 산본역·산본중심상가·산본신도시·수리산역 인접권을 함께 확인할 수 있습니다. 금정역 환승 생활권은 <a href="/geumjeong-dong/">금정동 안내</a>, 당동 구도심은 <a href="/gunpo-dong/">군포동 안내</a>, 산업단지·대학 생활권은 <a href="/dangjeong-dong/">당정동 안내</a>를 참고해 주세요.</p>
 </section>
 
 <section id="stations">
 <h2>산본역·금정역·군포역·당정역 역세권 안내</h2>
 <p>역을 기준으로 위치를 설명하는 것이 편하시다면 역세권 안내가 도움이 됩니다. 산본역, 금정역, 군포역, 당정역, 대야미역, 수리산역과 반월역 인접 생활권을 역마다 한 페이지로 정리했습니다. 금정역은 환승역이어도 노선별 페이지로 나누지 않고 역명 기준 하나의 안내로 운영합니다.</p>
 <ul class="card-grid">
-<li><a href="/gyeonggi/gunpo/station/sanbon-station/">산본역</a></li>
-<li><a href="/gyeonggi/gunpo/station/geumjeong-station/">금정역</a></li>
-<li><a href="/gyeonggi/gunpo/station/gunpo-station/">군포역</a></li>
-<li><a href="/gyeonggi/gunpo/station/dangjeong-station/">당정역</a></li>
-<li><a href="/gyeonggi/gunpo/station/daeyami-station/">대야미역</a></li>
-<li><a href="/gyeonggi/gunpo/station/surisan-station/">수리산역</a></li>
-<li><a href="/gyeonggi/gunpo/station/banwol-nearby-area/">반월역 인접</a></li>
+<li><a href="/station/sanbon-station/">산본역</a></li>
+<li><a href="/station/geumjeong-station/">금정역</a></li>
+<li><a href="/station/gunpo-station/">군포역</a></li>
+<li><a href="/station/dangjeong-station/">당정역</a></li>
+<li><a href="/station/daeyami-station/">대야미역</a></li>
+<li><a href="/station/surisan-station/">수리산역</a></li>
+<li><a href="/station/banwol-nearby-area/">반월역 인접</a></li>
 </ul>
-<p>산본역 출장마사지, 금정역 출장마사지, 군포역 출장마사지처럼 역명 기준 검색이 익숙하시다면 <a href="/gyeonggi/gunpo/station/">군포시 역세권 안내</a>에서 전체 역을 한눈에 확인하실 수 있습니다. 생활권 단위가 더 익숙하시면 <a href="/gyeonggi/gunpo/area/">생활권 안내</a>에서 산본중심상가·산본신도시·금정역·군포시청 생활권을 확인해 주세요.</p>
+<p>산본역 출장마사지, 금정역 출장마사지, 군포역 출장마사지처럼 역명 기준 검색이 익숙하시다면 <a href="/station/">군포시 역세권 안내</a>에서 전체 역을 한눈에 확인하실 수 있습니다. 생활권 단위가 더 익숙하시면 <a href="/area/">생활권 안내</a>에서 산본중심상가·산본신도시·금정역·군포시청 생활권을 확인해 주세요.</p>
 </section>
 
 <section id="check">
 <h2>군포시 홈타이 예약 전 확인사항</h2>
-<p>군포시 출장마사지·홈타이 예약 전에는 방문 가능 지역, 예약 가능 시간, 추가 이동비, 결제 방식, 취소 기준, 개인정보 처리 기준을 먼저 확인하시는 것이 좋습니다. 산본역과 금정역처럼 접근성이 좋은 지역도 있지만, 대야미동·송부동·부곡동 일부 외곽 생활권은 시간대에 따라 차량 이동 기준이 달라질 수 있습니다. 자세한 절차는 <a href="/gyeonggi/gunpo/reservation/">예약 안내</a>에, 방문 전 준비 기준은 <a href="/gyeonggi/gunpo/checklist/">이용 전 확인사항</a>에 정리되어 있습니다. 군포시 홈타이는 자택, 숙소, 사무실 인근에서 예약 가능 여부를 확인한 뒤 이용하는 방문형 관리 서비스이며, 불법·선정적 요청은 어떤 경우에도 진행하지 않습니다.</p>
+<p>군포시 출장마사지·홈타이 예약 전에는 방문 가능 지역, 예약 가능 시간, 추가 이동비, 결제 방식, 취소 기준, 개인정보 처리 기준을 먼저 확인하시는 것이 좋습니다. 산본역과 금정역처럼 접근성이 좋은 지역도 있지만, 대야미동·송부동·부곡동 일부 외곽 생활권은 시간대에 따라 차량 이동 기준이 달라질 수 있습니다. 자세한 절차는 <a href="/reservation/">예약 안내</a>에, 방문 전 준비 기준은 <a href="/checklist/">이용 전 확인사항</a>에 정리되어 있습니다. 군포시 홈타이는 자택, 숙소, 사무실 인근에서 예약 가능 여부를 확인한 뒤 이용하는 방문형 관리 서비스이며, 불법·선정적 요청은 어떤 경우에도 진행하지 않습니다.</p>
 </section>
 
 <section id="dedup">
@@ -150,7 +150,7 @@ _BODY = f"""
 
 <section id="how">
 <h2>군포시 출장마사지 사이트 이용 방법</h2>
-<p>메인페이지는 군포 전체 안내를 담당하고, 대표동 페이지는 산본동·금정동·군포동·당정동·부곡동·대야미동·송부동 검색을 담당합니다. 역세권 페이지는 산본역·금정역·군포역·당정역·대야미역·수리산역처럼 실제 검색 수요가 생기는 위치를 담당하고, 생활권 페이지는 산본중심상가·산본신도시·금정역·군포시청·군포역·당동·당정역·한세대·대야미·수리산처럼 본인 위치를 더 쉽게 찾도록 보조합니다. 홈타이가 처음이라면 <a href="/gyeonggi/gunpo/guide/">홈타이 이용 가이드</a>에서 출장마사지와 홈타이의 차이부터 확인해 보세요. 어느 페이지를 보셔도 예약 절차와 이용 기준은 동일하니, 본인에게 익숙한 기준으로 보시면 됩니다.</p>
+<p>메인페이지는 군포 전체 안내를 담당하고, 대표동 페이지는 산본동·금정동·군포동·당정동·부곡동·대야미동·송부동 검색을 담당합니다. 역세권 페이지는 산본역·금정역·군포역·당정역·대야미역·수리산역처럼 실제 검색 수요가 생기는 위치를 담당하고, 생활권 페이지는 산본중심상가·산본신도시·금정역·군포시청·군포역·당동·당정역·한세대·대야미·수리산처럼 본인 위치를 더 쉽게 찾도록 보조합니다. 홈타이가 처음이라면 <a href="/guide/">홈타이 이용 가이드</a>에서 출장마사지와 홈타이의 차이부터 확인해 보세요. 어느 페이지를 보셔도 예약 절차와 이용 기준은 동일하니, 본인에게 익숙한 기준으로 보시면 됩니다.</p>
 </section>
 
 {PRICING}
@@ -162,7 +162,7 @@ _BODY = f"""
 """
 
 PAGE = {
-    "path": "gyeonggi/gunpo/",
+    "path": "",
     "title": "군포시 출장마사지｜산본·금정·당정·대야미 홈타이 지역 안내",
     "desc": "군포시 출장마사지·홈타이 예약 전 산본역, 금정역, 당정동, 대야미, 군포역 생활권을 확인하세요.",
     "h1": "군포시 출장마사지 · 군포시 홈타이 지역별 예약 안내",
