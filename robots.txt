@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.barogo-gunpo.example.com/sitemap.xml
+Sitemap: https://gunpo-massage1.pages.dev/sitemap.xml
