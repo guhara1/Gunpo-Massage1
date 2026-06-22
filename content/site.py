@@ -12,6 +12,13 @@ HOME = "/"
 # 텔레그램 문의 링크 (웹사이트 제작문의·제휴문의 공용)
 TELEGRAM_URL = "https://t.me/googleseolab"
 
+# 검색엔진 사이트 소유확인 메타 (네이버 서치어드바이저)
+NAVER_VERIFICATION = "399bd5e39796fb000b98165a4475314824c57c65"
+GOOGLE_VERIFICATION = ""   # 구글 서치콘솔 HTML 태그 방식 사용 시 콘텐츠 값 입력
+
+# IndexNow 키 (Bing·Naver·Yandex 즉시 색인 통보). 루트에 <KEY>.txt 파일로도 생성됨.
+INDEXNOW_KEY = "4879e7576bd54a7ba8cd14cb8a4ae2432e65370ae91945cf97aaaf722646ed85"
+
 # 상단 메뉴 — 하위 메뉴에는 "출장마사지" 키워드를 반복하지 않고 지역명·역명만 표시한다.
 NAV = [
     ("홈", "/", [

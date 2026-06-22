@@ -1,4 +1,8 @@
 User-agent: *
 Allow: /
 
+User-agent: Yeti
+Allow: /
+
 Sitemap: https://gunpo-massage1.pages.dev/sitemap.xml
+Sitemap: https://gunpo-massage1.pages.dev/rss.xml
